@@ -5,6 +5,7 @@ channels:
 dependencies:
   - dash
   - jupyter-dash
+  - jupyterlab-dash
   - python=3.9
   - plotly
 prefix: C:\Users\Florencia\miniconda3
