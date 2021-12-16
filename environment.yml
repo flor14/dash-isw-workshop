@@ -1,0 +1,10 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dash
+  - python=3.9
+  - plotly
+  - dash_boostrap_components
+prefix: C:\Users\Florencia\miniconda3
