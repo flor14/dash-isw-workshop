@@ -4,7 +4,7 @@ channels:
   - defaults
 dependencies:
   - dash
-  - jupyter_dash
+  - jupyter-dash # even if I call it with _
   - pandas
   - jupyterlab-dash
   - python=3.9
