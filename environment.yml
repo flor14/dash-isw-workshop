@@ -7,6 +7,6 @@ dependencies:
   - jupyter-dash # even if I call it with _
   - pandas
   - jupyterlab-dash
-  - python=3.8
+  - python=3.7
   - plotly
 prefix: C:\Users\Florencia\miniconda3
