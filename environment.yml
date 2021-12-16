@@ -4,7 +4,8 @@ channels:
   - defaults
 dependencies:
   - dash
-  - jupyter-dash
+  - jupyter_dash
+  - pandas
   - jupyterlab-dash
   - python=3.9
   - plotly
