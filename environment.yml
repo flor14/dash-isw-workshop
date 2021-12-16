@@ -6,5 +6,5 @@ dependencies:
   - dash
   - python=3.9
   - plotly
-  - dash_boostrap_components
+  - dash_boostrap_components=1.0.*
 prefix: C:\Users\Florencia\miniconda3
