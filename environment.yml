@@ -8,4 +8,5 @@ dependencies:
   - jupyterlab-dash
   - python=3.9
   - plotly
+  - os
 prefix: C:\Users\Florencia\miniconda3
