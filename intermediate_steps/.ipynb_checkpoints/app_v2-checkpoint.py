@@ -1,5 +1,6 @@
 import dash
 from dash import dcc, html
+from jupyter_dash import JupyterDash
 import plotly.express as px
 
 # Import irish dataset
@@ -14,12 +15,12 @@ plotly_fig = px.scatter(df,
                         hover_data=['petal_width'])
 
 
-app = dash.Dash(__name__)
+app = JupyterDash(__name__)
 
 # Dash app layout section
 app.layout = html.Div([
 
-    html.H1(children='A Plotly plot in Dash App'),
+    html.H1(children='My first Dash app'),
     html.H3(children='ISW workshop - December 2021'),
 
  # Insert plotly plot into dash
@@ -27,6 +28,6 @@ app.layout = html.Div([
 ])
 
 if __name__ == '__main__':
-    app.run_server(port=8999,debug=False)
+    app.run_server(mode="jupyterlab")
     
 # https://thinkinfi.com/make-interactive-dashboard-using-dash-with-python/
